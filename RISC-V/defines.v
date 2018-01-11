@@ -254,3 +254,14 @@
 `define FUNCT7_SRA 7'b0100000
 `define FUNCT7_OR  7'b0000000
 `define FUNCT7_AND 7'b0000000
+
+//for cache
+`define ValidBit    62
+`define Valid       1'b1
+`define Invalid     1'b0
+`define Hit         1'b1
+`define NotHit      1'b0
+`define CacheNOP    62'b0
+`define CacheTag    61:32
+`define DataStorage 31:0
+`define DataAddrTagBit 31:2
